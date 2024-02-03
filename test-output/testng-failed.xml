@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Pet Store Test Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="com.liftlab.utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="PetStore API Tests(failed)" verbose="10">
+    <classes>
+      <class name="petapitests.PetAPITests">
+        <methods>
+          <include name="setup"/>
+          <include name="testGetAllAvaiablePets" invocation-numbers="0"/>
+          <include name="testUpdatePet" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- petapitests.PetAPITests -->
+    </classes>
+  </test> <!-- PetStore API Tests(failed) -->
+</suite> <!-- Failed suite [Pet Store Test Suite] -->

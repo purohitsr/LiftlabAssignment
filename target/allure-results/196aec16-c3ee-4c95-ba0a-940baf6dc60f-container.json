@@ -1,0 +1,1 @@
+{"uuid":"196aec16-c3ee-4c95-ba0a-940baf6dc60f","name":"petapitests.PetAPI","children":["2a8efb34-790c-4acc-8bc2-8031e4f563ed"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1706888582411,"stop":1706888582859}],"afters":[],"start":1706888582388,"stop":1706888586472}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pet Store Test Suite" verbose="10">
+    <listeners>
+        <listener
+                class-name="com.liftlab.utils.TestListener"/>
+    </listeners>
+   
+    <test name="PetStore API Tests" >
+        <classes>
+            <class name="petapitests.PetAPITests">
+                <methods>
+                    <include name="testGetAllAvaiablePets"/>
+                    <include name="testUpdatePet"/>
+                    <include name="testGetPetDetails"/> 
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite> 
